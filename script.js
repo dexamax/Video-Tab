@@ -1,6 +1,6 @@
 redButton.addEventListener('click', function() {
     // Redirect to the red page
-    window.location.href = 'https://www.highrevenuenetwork.com/zckfy7ec9g?key=a1e6f32b4e5abe5d0f65444920493349';
+    window.location.href = 'https://www.highrevenuenetwork.com/gubgi5gujb?key=3794e4eedcd3d734aa7a207640b917b5';
     // Store the state of the red button
     sessionStorage.setItem('redButtonClicked', true);
 });
