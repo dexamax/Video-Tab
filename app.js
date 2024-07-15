@@ -1,5 +1,6 @@
 window.onload = function() {
     var countdownElement = document.getElementById('countdown');
+    var okButton = document.getElementById('okButton');
     var countdown = 20;
 
     var interval = setInterval(function() {
@@ -8,12 +9,11 @@ window.onload = function() {
 
         if (countdown < 0) {
             clearInterval(interval);
-            countdownElement.textContent = "OK";
+            countdownElement.textContent = "නිල් පාට බටන් එක ඔබන්න";
+            countdownElement.classList.add('small-text'); // Add class to change font size
+            okButton.style.display = 'block';
         }
     }, 1000);
 };
 
-var script = document.createElement('script');
-script.type = 'text/javascript';
-script.src = '//pl22417849.highrevenuenetwork.com/7f/17/8a/7f178a840bc8e2fc6f855819c052cba9.js';
-document.head.appendChild(script);
+
